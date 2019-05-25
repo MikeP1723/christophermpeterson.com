@@ -143,7 +143,7 @@ jQuery(document).ready(function ($) {
 
       var contactName = $('#contactForm #contactName').val();
       var contactEmail = $('#contactForm #contactEmail').val();
-      var contactPhone = $('#contactPhone #contactPhone').val();
+      var contactPhone = $('#contactForm #contactPhone').val();
       var contactSubject = $('#contactForm #contactSubject').val();
       var contactMessage = $('#contactForm #contactMessage').val();
       var endpoint = "https://njfxoagang.execute-api.us-east-1.amazonaws.com/prod/ContactFormLambda";
